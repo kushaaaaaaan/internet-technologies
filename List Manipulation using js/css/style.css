@@ -1,6 +1,10 @@
 /* Basic Style */
+html {
+  height: 100%;
+}
+
 body {
-  background: #fff;
+  background: linear-gradient(to bottom, #ffcc33, #ffb347);
   color: #333;
   font-family: Lato, sans-serif;
 }
@@ -41,8 +45,7 @@ button:hover {
 }
 /* Heading */
 h1 {
-  background: #fff;
-  color: #333;
+  color: #000;
 }
 h3,
 label[for="new-task"] {
